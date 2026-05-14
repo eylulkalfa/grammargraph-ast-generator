@@ -1,0 +1,16 @@
+<sentence> ::= <noun-phrase> <verb-phrase>
+
+<noun-phrase> ::= <determiner> <adjective-list> <noun-list> | <pronoun>
+<noun-list> ::= <noun> | <noun> <conjunction> <noun>
+<adjective-list> ::= <adjective> | ε
+
+<verb-phrase> ::= <verb> <noun-phrase> <adverb-list> | <verb> <adverb-list>
+<adverb-list> ::= <adverb> | ε
+
+<determiner> ::= the | a
+<conjunction> ::= and | or
+<pronoun> ::= he | she | it | they | me | you
+<adjective> ::= big | small | happy | lazy | red
+<adverb> ::= quickly | slowly | carefully | loudly
+<noun> ::= cat | dog | man | telescope
+<verb> ::= saw | liked | admired | 
